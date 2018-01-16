@@ -1,0 +1,6 @@
+[ 2016-12-20T11:13:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+ERR: 无法加载模块:Course
+

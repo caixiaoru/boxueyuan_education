@@ -1,0 +1,84 @@
+
+              <div class="col-md-10 column"> 
+                <ul class="breadcrumb">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('admin/all')}">管理员管理</a></li>
+                  <li class="active">所有管理员</li> 
+                </ul> 
+                <form action="" method="get">
+                   <div class="col-md-5 column" id="enenen"><input type="text" id="search" value="" name="search"><span><button>搜索</button></span>  
+           </div>
+                </form>
+              <form  action="__MODULE__/admin/delete" role="form" >
+                <div class="row" id="add-del">
+            
+                	<div class="col-md-2 column">
+                	 
+                      <button><a href="{:U('Admin/admin/add')}">添加管理员</a></button>
+		            </div>
+		       
+		        <div class="col-md-2 column">
+			         <button type="submit">批量删除</a></button>
+		        </div>
+		        <div class="col-md-3 column">
+		        </div>
+		      
+                </div>
+                <div class="row" id="admin-table" style="margin-left: 3%">
+                <table class="table" style="margin-left: 0%; border-spacing:0px;  " >
+                  <thead>
+                    <tr>
+                      <th><input type="checkbox" id="checkbox-all"></th>
+                       <th>adminID</th>
+                      <th>管理员姓名</th>
+                      <th> 注册时间</th>
+                      <th> 最近一次登录时间 </th>
+                       <th>操作</th>
+                    </tr>
+                  </thead>
+           
+             <volist name="administrator" id="u">
+                <tr>
+                <td><input type="checkbox" name="administratorId[]" id="checkbox" value="{$u.gid}">
+                  <label for="checkbox"></label></td>
+                <td>{$u.gid}</td>
+                <td>{$u.username}</td>
+                
+                <td>{$u.registertime} </td>
+                <td>{$u.lasttime} </td>
+                <td><a href="__MODULE__/admin/delete/administratorId/{$u.gid}">删除</a>/<a href="__MODULE__/admin/edit/administratorId/{$u.gid}">编辑</a></td>
+            </tr>
+            </volist>
+
+
+<!-- </form> --> 
+
+
+
+
+
+                </table>
+
+                </div>
+            </form>
+               <!--  <ul class="pagination">
+                  <li> <a href="#">Prev</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a> </li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul> -->
+                <div style="float: right;">
+                {$page}
+                </div>
+
+
+              </div>
+            </div>
+       <style>
+          #enenen{
+            float:right;
+          }
+       </style>

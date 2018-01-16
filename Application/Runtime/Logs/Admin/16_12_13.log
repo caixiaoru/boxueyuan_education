@@ -1,0 +1,615 @@
+[ 2016-12-13T08:12:06+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/note/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-12-13T08:12:10+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-12-13T08:12:18+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `administrator` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `administrator` WHERE `username` = 'admin12' AND `password` = '111111' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-12-13T08:12:19+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-12-13T08:12:27+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Note/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `note` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\NoteController.class.php 第 18 行.
+SQL: SELECT * FROM `note` ORDER BY Wid asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-12-13T08:12:32+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Note/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `note` WHERE ( wid='2' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-12-13T08:12:50+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Note/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `note` SET `subject`='33333333',`title`='333333',`name`='aaaa',`school`='aaa',`summary`='aaaaaaaaaaaaa',`content`='',`autor`='aaa',`addtime`='2016-12-12 17:22:39',`img`='../Public/uploads/2016-12-13/584f3d017be03.jpg',`updatetime`='2016-12-13 08:12:50' WHERE ( wid='2' ) [ RunTime:0.1106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2016-12-13T08:12:52+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/note/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `note` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\NoteController.class.php 第 18 行.
+SQL: SELECT * FROM `note` ORDER BY Wid asc LIMIT 0,3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004461s ]
+
+[ 2016-12-13T11:22:55+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/note/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-12-13T11:23:00+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003590s ]
+
+[ 2016-12-13T11:23:03+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2016-12-13T11:23:09+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `teacher` WHERE ( tid='9' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010890s ]
+
+[ 2016-12-13T11:23:33+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = '孙老师' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-12-13T11:23:45+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = '孙老师' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-12-13T11:25:46+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = '孙老师' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-13T11:25:49+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `teacher` WHERE ( tid='9' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004139s ]
+
+[ 2016-12-13T11:26:07+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = '孙老师' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-12-13T11:26:42+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0839s ]
+SQL: SELECT * FROM `teacher` WHERE ( tid='9' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005333s ]
+
+[ 2016-12-13T11:26:47+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0149s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = '孙老师' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `teacher` SET `img`='../Public/uploads/2016-12-13/584f6a7671a85.jpg',`lasttime`='2016-12-13 11:26:47' WHERE ( tid='9' ) [ RunTime:0.0755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003057s ]
+
+[ 2016-12-13T11:26:49+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 0,3   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-12-13T11:29:28+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 0,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003239s ]
+
+[ 2016-12-13T11:29:31+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-13T11:29:52+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0179s ]
+NOTIC: [8] Undefined index: validate E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `teacher` WHERE `username` = 'aa' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: auto E:\websever\apache2.2\htdocs\BOXUEYUANBI\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `teacher` (`username`,`password`,`phone`,`email`,`img`,`registertime`,`lasttime`) VALUES ('aa','123','12344','12345@qq.com','../Public/uploads/2016-12-13/584f6b2f52cc3.jpg','2016-12-13 11:29:52','2016-12-13 11:29:52') [ RunTime:0.0839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003475s ]
+
+[ 2016-12-13T11:29:59+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 0,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2016-12-13T11:30:04+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 3,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2016-12-13T11:30:07+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/Teacher/teacher_all/p/teacher_edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\TeacherController.class.php 第 57 行.
+SQL: SELECT * FROM `teacher` ORDER BY tid asc LIMIT 0,3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004829s ]
+
+[ 2016-12-13T15:00:48+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/user/user_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004233s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\UserController.class.php 第 54 行.
+SQL: SELECT * FROM `user` ORDER BY sid asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005274s ]
+
+[ 2016-12-13T15:01:48+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/user/user_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\UserController.class.php 第 54 行.
+SQL: SELECT * FROM `user` ORDER BY sid asc LIMIT 0,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003749s ]
+
+[ 2016-12-13T15:01:52+08:00 ] 127.0.0.1 /BOXUEYUANBI/index.php/Admin/user/user_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row E:\websever\apache2.2\htdocs\BOXUEYUANBI\Application\Admin\Controller\UserController.class.php 第 54 行.
+SQL: SELECT * FROM `user` ORDER BY sid asc LIMIT 0,3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004959s ]
+

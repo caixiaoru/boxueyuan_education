@@ -1,0 +1,124 @@
+﻿
+              <div class="col-md-10 column">
+                <ul class="breadcrumb">
+                  <li>
+                     <a href="admin_index.html"><span class="glyphicon  glyphicon-home"></span> 首页</a>
+                  </li>
+                  <li>
+                     <a href="__MODULE__/Data/book_all">教材管理</a>
+                  </li>
+                  <li class="active"> 
+                    所有教材
+                  </li> 
+                </ul>
+               <form action="" method="get">
+                    <div class="col-md-5 column" id="enenene"><input type="text" id="search" value="" name="search"><span><button type="submit">搜索</button></span> 
+                  </div>
+                </form>
+               
+                 <form action="__MODULE__/Data/delete" >
+                <div class="row" id="book_add">
+                   <div class="col-md-2 column">
+                     <button><a href="{:U('Admin/Data/book_add')}" style="color:black;">添加教材</a></button>
+                  </div>           
+                  <div class="col-md-2 column">
+                    <button type="submit">批量删除</button>
+                  </div>
+                  <div class="col-md-3 column">
+                  </div>        
+                </div>
+                <table class="table" id="book_table" style="margin-left:3%;border-spacing: 0px;">
+                  <thead>
+                    <tr>
+                      <th>
+                        
+                      </th>
+                      <th>
+                        ID
+                      </th>
+                      <th>
+                        科目
+                      </th>
+                      <th>
+                        年级
+                      </th>
+                      <th>
+                        教材、资料
+                      </th>
+                      <th>
+                        书名
+                      </th>
+                      <th>
+                        摘要
+                      </th>
+                      <th>
+                        上传时间
+                      </th>
+                      <th>
+                        操作
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <volist name="data" id="d">
+                    <tr>
+                      <td>
+                         
+                        <label><input name="dataId[]" type="checkbox" id="checkbox" value="{$d.zid}" /></label> 
+                        
+                      </td>
+                      <td>
+                        {$d.zid}
+                      </td>
+                      <td>
+                        {$d.subject}
+                      </td>
+                      <td>
+                        {$d.grade}
+                      </td>
+                      <td>
+                         <img src="__PUBLIC__/{$d.thumb}" border="0" style="width:150px;height:105px;" >
+<!--                          {$d.thumb|html_entity_decode} -->
+                      </td>
+                      <td>
+                        {$d.dataname}
+                      </td>
+                      <td>
+                        {$d.zhaiyao|mb_substr=###,0,10,'utf-8'}...
+                      </td>
+                      <td>
+                        {$d.addtime}
+                      </td>
+                      <td>
+                       <a  href="delete/dataId/{$d.zid}">删除</a> /<a href="__MODULE__/Data/book_edit/id/{$d.zid}">编辑</a>
+                      </td>
+                    </tr>
+                   </volist> 
+                  </tbody>
+                </table>
+
+                </form>
+                <div style="float:right">
+               {$page}
+               </div>
+                
+                
+              </div>
+            </div>
+            <div class="container" style="background:rgb(0,112,189);margin-top:10px;">
+              
+          </div>
+        </div>
+      </div>
+<style>
+
+  #book_add{
+    margin-left:35px;
+  }
+   #enenene{
+        float:right;
+      }
+      a:hover{
+        text-decoration:none;
+      }
+</style>

@@ -1,0 +1,2492 @@
+[ 2016-12-19T14:03:07+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.2438s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0368s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0765s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0064s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000728s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.288722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.288913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.086758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.086886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.066939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.067136s ]
+
+[ 2016-12-19T14:04:13+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0123s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2016-12-19T14:04:28+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2016-12-19T14:14:08+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.3546s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0505s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0269s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0630s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.302947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005718s ]
+
+[ 2016-12-19T14:19:20+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2016-12-19T14:21:45+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003467s ]
+
+[ 2016-12-19T14:21:55+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002947s ]
+
+[ 2016-12-19T14:22:19+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2016-12-19T14:28:22+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.2798s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0637s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0358s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002214s ]
+
+[ 2016-12-19T20:27:34+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007715s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:2.1129s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:1.1220s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1453s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.1226s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.902710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.902839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.116993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.117093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013957s ]
+
+[ 2016-12-19T20:43:05+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.5598s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0225s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.6167s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000981s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2016-12-19T20:46:33+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0286s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0031s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000845s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002713s ]
+
+[ 2016-12-19T20:48:42+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2016-12-19T20:48:57+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0229s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002909s ]
+
+[ 2016-12-19T20:51:06+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0300s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002965s ]
+
+[ 2016-12-19T20:52:28+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0964s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0323s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0614s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0270s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002133s ]
+
+[ 2016-12-19T20:53:09+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0236s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003035s ]
+
+[ 2016-12-19T20:54:22+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0240s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-12-19T20:54:37+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0382s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2016-12-19T20:54:56+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0250s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001898s ]
+
+[ 2016-12-19T20:55:02+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0240s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002814s ]
+
+[ 2016-12-19T20:57:49+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0291s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2016-12-19T20:58:25+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/indexlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0262s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 123 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 135 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-12-19T20:59:37+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/indexlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0252s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 123 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 135 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000588s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002985s ]
+
+[ 2016-12-19T21:08:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/indexlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021474s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.2573s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0582s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1415s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 123 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0659s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 135 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.044830s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.044953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.376718s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.376906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.239684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.239820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009586s ]
+
+[ 2016-12-19T21:09:21+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0259s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000731s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2016-12-19T21:09:46+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-12-19T21:13:03+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0311s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004431s ]
+
+[ 2016-12-19T21:13:40+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0219s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002645s ]
+
+[ 2016-12-19T21:13:43+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2016-12-19T21:15:58+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005618s ]
+
+[ 2016-12-19T21:17:05+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+NOTIC: [8] Undefined index: email D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\LoginController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `username` = '张文素' AND `password` = '123456' LIMIT 1   [ RunTime:0.2261s ]
+
+[ 2016-12-19T21:17:07+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/indexlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0953s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0222s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 123 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 135 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.277089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2016-12-19T21:17:12+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-12-19T21:17:22+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/person/person_teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.1196s ]
+SQL: SELECT * FROM `teacher` WHERE ( username='张文素' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `tid` FROM `teacher` WHERE ( username='张文素' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.6477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `video` WHERE ( tid='13' ) LIMIT 1   [ RunTime:1.2443s ]
+NOTIC: [8] Undefined variable: row D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\PersonController.class.php 第 82 行.
+SQL: SELECT * FROM `video` WHERE ( tid='13' ) ORDER BY tid asc LIMIT 0,5   [ RunTime:0.3635s ]
+SQL: SHOW COLUMNS FROM `download` [ RunTime:3.0680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `download` WHERE ( tdownid=13 and testid>0 ) LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: row D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\PersonController.class.php 第 97 行.
+SQL: SELECT * FROM `download` left join test on download.testid=test.id  WHERE ( tdownid=13 and testid>0 )  [ RunTime:0.6049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `download` WHERE ( tdownid=13 and dataid>0 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: row D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\PersonController.class.php 第 111 行.
+SQL: SELECT * FROM `download` left join data on download.dataid=data.zid  WHERE ( tdownid=13 and dataid>0 )  [ RunTime:1.2099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `download` WHERE ( tdownid=13 and videoid>0 ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: row D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\PersonController.class.php 第 125 行.
+SQL: SELECT * FROM `download` left join video on download.videoid=video.vid  WHERE ( tdownid=13 and videoid>0 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.498300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.498421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-12-19T21:17:35+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0305s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2016-12-19T21:18:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002532s ]
+
+[ 2016-12-19T21:18:59+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined index: email D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\LoginController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `username` = '张文素' AND `password` = '123456' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-12-19T21:19:00+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Index/indexlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `teacher` ORDER BY Tid asc LIMIT 4,4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0329s ]
+NOTIC: [8] Use of undefined constant 考生 - assumed '考生' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 123 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%考生%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 提纲 - assumed '提纲' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%提纲%') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant 教育部 - assumed '教育部' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 135 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%教育部%') ORDER BY id desc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `news` WHERE `course` IN ('语文','数学','英语','物理','化学','生物','理综','文综') ORDER BY id desc LIMIT 4   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: xueke D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant 志愿 - assumed '志愿' D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `news` WHERE (`course` LIKE '%志愿%') ORDER BY id desc LIMIT 4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000706s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003206s ]
+
+[ 2016-12-19T21:19:16+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Chinese/chinese
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `data` WHERE ( subject="语文" AND grade="高一" ) LIMIT 4   [ RunTime:0.1095s ]
+SQL: SELECT * FROM `data` WHERE ( subject="语文" AND grade="高二" ) LIMIT 4   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `data` WHERE ( subject="语文" AND grade="高三" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.3680s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0168s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="语文" AND grade="高一" ) LIMIT 4   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="语文" AND grade="高二" ) LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="语文" AND grade="高三" ) LIMIT 4   [ RunTime:0.1472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 244 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 244 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 244 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 244 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 390 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 390 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 390 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 390 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 536 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 536 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 536 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\c124de955f585acde4633f671b943c90.php 第 536 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.372779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002713s ]
+
+[ 2016-12-19T21:19:37+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/About/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2016-12-19T21:19:46+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000494s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2016-12-19T21:19:47+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:20:24+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005263s ]
+
+[ 2016-12-19T21:20:24+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:20:43+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000792s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000993s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002659s ]
+
+[ 2016-12-19T21:20:43+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:20:53+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.3520s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.672509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.672634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2016-12-19T21:20:53+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:21:10+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.5087s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0213s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:21:50+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002848s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0011s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:23:17+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004243s ]
+
+[ 2016-12-19T21:23:17+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:23:28+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2016-12-19T21:23:28+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007165s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:23:36+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0010s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:24:12+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0018s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:24:16+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000708s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002563s ]
+
+[ 2016-12-19T21:24:16+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:24:27+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0011s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:25:35+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0139s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY wid asc LIMIT 4   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000652s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002692s ]
+
+[ 2016-12-19T21:25:35+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:25:43+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0010s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:25:49+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0015s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:25:50+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0015s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:26:16+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2016-12-19T21:26:16+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:27:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 439 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 440 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 528 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 530 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 531 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 705 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 707 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 708 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 882 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 884 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 885 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.316328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005911s ]
+
+[ 2016-12-19T21:27:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:28:02+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0015s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:30:30+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007356s ]
+NOTIC: [8] Undefined index: Wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Home\Controller\NoteController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = null  [ RunTime:0.0020s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY wid desc LIMIT 1' at line 1
+
+[ 2016-12-19T21:30:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000963s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003343s ]
+
+[ 2016-12-19T21:30:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004835s ]
+
+[ 2016-12-19T21:30:32+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003660s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:30:37+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/gaokaozhuanti
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `note` WHERE ( subject="语文"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `note` WHERE ( subject="数学"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `note` WHERE ( subject="英语"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `note` WHERE ( subject="理综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `note` WHERE ( subject="文综"  ) ORDER BY Wid asc LIMIT 4   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="语文"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="数学"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="英语"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="理综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `test` WHERE ( kemu="文综"  ) ORDER BY Id asc LIMIT 8   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+NOTIC: [8] Undefined index: wid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\d1a7ed1ebe8b446d4cf28ab010528e42.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003265s ]
+
+[ 2016-12-19T21:30:37+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/GaoKao/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:30:42+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = 29  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `note` WHERE ( Wid<29 ) ORDER BY wid desc LIMIT 1   [ RunTime:0.0521s ]
+SQL: SELECT * FROM `note` WHERE ( Wid>29 ) ORDER BY Wid asc LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2016-12-19T21:30:43+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Note/note/Wid/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `note` WHERE `Wid` = 0  [ RunTime:0.0014s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'js' in 'where clause'
+
+[ 2016-12-19T21:31:03+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2016-12-19T21:31:03+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:31:08+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/math/math
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `data` WHERE ( subject="数学" AND grade="高一" ) LIMIT 4   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `data` WHERE ( subject="数学" AND grade="高二" ) LIMIT 4   [ RunTime:0.0052s ]
+SQL: SELECT * FROM `data` WHERE ( subject="数学" AND grade="高三" ) LIMIT 4   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0291s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="数学" AND grade="高一" ) LIMIT 4   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="数学" AND grade="高二" ) LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="数学" AND grade="高三" ) LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 243 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 243 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 243 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 243 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 389 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 389 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 389 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 389 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 535 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 535 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 535 行.
+NOTIC: [8] Undefined index: Tid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\b3b425b379205cbd5ab9d70f4c6f65d5.php 第 535 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2016-12-19T21:31:18+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Math/content/id/140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `data` WHERE `Zid` = 140 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `data` WHERE ( zid<140 ) ORDER BY zid desc LIMIT 1   [ RunTime:0.1340s ]
+SQL: SELECT * FROM `data` WHERE ( zid>140 ) ORDER BY zid asc LIMIT 1   [ RunTime:0.0028s ]
+SQL: UPDATE `data` SET `viewcount`=viewcount+1 [ RunTime:0.3204s ]
+SQL: SELECT * FROM `data` WHERE `Zid` = 140 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002760s ]
+
+[ 2016-12-19T21:31:52+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2016-12-19T21:31:52+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Course/js/responsiveslides.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+ERR: 非法操作:js
+
+[ 2016-12-19T21:32:01+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Wenzong/wenzong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004998s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.5366s ]
+SQL: SELECT * FROM `data` WHERE ( subject="历史" AND grade="高一" ) LIMIT 4   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `data` WHERE ( subject="地理" AND grade="高一" ) LIMIT 4   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `data` WHERE ( subject="政治" AND grade="高一" ) LIMIT 4   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="历史" AND grade="高一" ) LIMIT 4   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="地理" AND grade="高一" ) LIMIT 4   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="政治" AND grade="高一" ) LIMIT 4   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `data` WHERE ( subject="历史" AND grade="高二" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `data` WHERE ( subject="地理" AND grade="高二" ) LIMIT 4   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `data` WHERE ( subject="政治" AND grade="高二" ) LIMIT 4   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="历史" AND grade="高二" ) LIMIT 4   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="地理" AND grade="高二" ) LIMIT 4   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="政治" AND grade="高二" ) LIMIT 4   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `data` WHERE ( subject="历史" AND grade="高三" ) LIMIT 4   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `data` WHERE ( subject="地理" AND grade="高三" ) LIMIT 4   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `data` WHERE ( subject="政治" AND grade="高三" ) LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="历史" AND grade="高三" ) LIMIT 4   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="地理" AND grade="高三" ) LIMIT 4   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="政治" AND grade="高三" ) LIMIT 4   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005081s ]
+
+[ 2016-12-19T21:32:30+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/lizong/lizong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `data` WHERE ( subject="物理" AND grade="高一" ) LIMIT 4   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `data` WHERE ( subject="生物" AND grade="高一" ) LIMIT 4   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `data` WHERE ( subject="化学" AND grade="高一" ) LIMIT 4   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime asc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `test` INNER JOIN teacher on test.techid = teacher.Tid  ORDER BY updatetime desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="物理" AND grade="高一" ) LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="化学" AND grade="高一" ) LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="生物" AND grade="高一" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `data` WHERE ( subject="物理" AND grade="高二" ) LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `data` WHERE ( subject="化学" AND grade="高二" ) LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `data` WHERE ( subject="生物" AND grade="高二" ) LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="物理" AND grade="高二" ) LIMIT 4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="化学" AND grade="高二" ) LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="生物" AND grade="高二" ) LIMIT 4   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `data` WHERE ( subject="物理" AND grade="高三" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `data` WHERE ( subject="化学" AND grade="高三" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `data` WHERE ( subject="生物" AND grade="高三" ) LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="物理" AND grade="高三" ) LIMIT 4   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="化学" AND grade="高三" ) LIMIT 4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.Tid = teacher.Tid  WHERE ( subject="生物" AND grade="高三" ) LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined variable: testtime1 D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 288 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 628 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 628 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 628 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 628 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 665 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 665 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 665 行.
+NOTIC: [8] Undefined index: zid D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 665 行.
+NOTIC: [8] Undefined variable: data9 D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 703 行.
+NOTIC: [8] Undefined variable: data9 D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 703 行.
+NOTIC: [8] Undefined variable: data9 D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 703 行.
+NOTIC: [8] Undefined variable: data9 D:\HTML5\apaqi\htdocs\BOXUEYUANEND\Application\Runtime\Cache\Home\ee52daaa818cc6811e7e4c672c77d774.php 第 703 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004355s ]
+
+[ 2016-12-19T21:32:49+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Lizong/newvideo/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `video` WHERE `Vid` = 18 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` LIMIT 5   [ RunTime:0.2703s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:2.0963s ]
+SQL: SELECT * FROM `liuyan` INNER JOIN user on liuyan.userid=user.sid   [ RunTime:1.7566s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.tid=teacher.tid  WHERE `Vid` = '18' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `tid` FROM `video` WHERE ( vid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `video` WHERE ( tid=18 ) LIMIT 3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.061593s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.061782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2016-12-19T21:33:20+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Lizong/addliuyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.1173s ]
+NOTIC: [8] Undefined index: validate D:\HTML5\apaqi\htdocs\BOXUEYUANEND\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\HTML5\apaqi\htdocs\BOXUEYUANEND\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `liuyan` (`liuyan`) VALUES ('不好看') [ RunTime:0.0807s ]
+
+[ 2016-12-19T21:33:22+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Lizong/newvideo/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `video` WHERE `Vid` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `video` LIMIT 5   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.3617s ]
+SQL: SELECT * FROM `liuyan` INNER JOIN user on liuyan.userid=user.sid   [ RunTime:0.0042s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.tid=teacher.tid  WHERE `Vid` = '18' LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT `tid` FROM `video` WHERE ( vid=18 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `video` WHERE ( tid=18 ) LIMIT 3   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002451s ]
+
+[ 2016-12-19T21:33:36+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Lizong/newvideo/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.1648s ]
+SQL: SELECT * FROM `video` WHERE `Vid` = 18 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `video` LIMIT 5   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `liuyan` INNER JOIN user on liuyan.userid=user.sid   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `video` INNER JOIN teacher on video.tid=teacher.tid  WHERE `Vid` = '18' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `tid` FROM `video` WHERE ( vid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `video` WHERE ( tid=18 ) LIMIT 3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002046s ]
+
+[ 2016-12-19T21:33:46+08:00 ] 127.0.0.1 /BOXUEYUANEND/index.php/Home/Lizong/downjiaocai?downid=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `download` [ RunTime:0.0816s ]
+SQL: INSERT INTO `download` (`dataid`,`time`) VALUES ('18','2016-12-19 21:33:45') [ RunTime:0.5304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002873s ]
+
